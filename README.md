@@ -5,15 +5,6 @@ A Hand Gesture Recognition System that uses MediaPipe and a custom Neural Networ
 
 This project implements a hand gesture recognition system that leverages MediaPipe Hands to extract landmark data and a custom Convolutional Neural Network (CNN) to classify gestures in real-time and trigger different camera filters. The system is designed to identify specific hand gestures, which then correspond to unique image filters, enhancing the user experience in applications like augmented reality and human-computer interaction. Currently, the model is optimized for right-hand gestures, with left-hand gesture recognition as a potential area for future improvement.
 
-## Why This Project is Useful
-
-Hand gesture recognition is crucial for various fields like:
-* Human-computer interaction: Enabling hands-free control over devices and applications.
-* Sign language interpretation: Translating sign language gestures into text or speech.
-* Augmented reality (AR): Enhancing AR applications with gesture-based controls and interactive features.
-
-This project provides an easy-to-use framework for gesture-based control, ideal for use in gaming, education, accessibility tools, and entertainment applications.
-
 ## Methodology
 
 ### Data Collection
@@ -45,6 +36,15 @@ This project provides an easy-to-use framework for gesture-based control, ideal 
 * The model successfully classifies hand gestures with high accuracy when using right-hand gestures.
 * The system applies various image filters in real time based on the detected gestures, enhancing user interaction.
 * The project demonstrates the potential for integrating hand gesture recognition with real-time visual effects, providing a novel user experience for various applications.
+
+## Why This Project is Useful
+
+Hand gesture recognition is crucial for various fields like:
+* Human-computer interaction: Enabling hands-free control over devices and applications.
+* Sign language interpretation: Translating sign language gestures into text or speech.
+* Augmented reality (AR): Enhancing AR applications with gesture-based controls and interactive features.
+
+This project provides an easy-to-use framework for gesture-based control, ideal for use in gaming, education, accessibility tools, and entertainment applications.
 
 ## Limitations
 
